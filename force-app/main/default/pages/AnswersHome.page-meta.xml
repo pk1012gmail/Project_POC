@@ -4,5 +4,5 @@
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <description>Default Lightning Platform home page for Answers sites</description>
-    <label>AnswersHome </label>
+    <label>AnswersHome</label>
 </ApexPage>
