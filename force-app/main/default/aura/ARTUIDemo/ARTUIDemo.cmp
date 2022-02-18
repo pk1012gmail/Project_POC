@@ -1,0 +1,4 @@
+<aura:component implements="forceCommunity:layout" access="global" >
+    <aura:attribute name ="container1" type ="Aura.component[]"/>    
+    <div >{!v.container1}</div>   
+</aura:component>

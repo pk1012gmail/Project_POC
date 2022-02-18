@@ -1,0 +1,3 @@
+<aura:component >
+    <aura:handler type="event" event="c.AppEvent" action = "{!c.register}"/>
+</aura:component>

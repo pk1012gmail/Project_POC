@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Sign In">
+        <div class="slds-m-around_medium">
+          <lightning-input class="inp" label="Name" name="inputName"></lightning-input>
+          <lightning-input class="inp" label="Password" name="inputPassword"></lightning-input>
+          <label for="FieldSelect" class="slds-form-element__label slds-no-flex">Region</label>
+          <select class="slds-select inp" name="inputRegion">
+                    <option value="North America">North America</option>
+                    <option value="Frankfurt">Frankfurt</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Central">Central</option>                    
+                </select>
+          <lightning-button label="Submit" onclick={submit}></lightning-button>
+
+        </div>
+      </lightning-card>
+      {name}   test {passwd} {region} {str}
+</template>
