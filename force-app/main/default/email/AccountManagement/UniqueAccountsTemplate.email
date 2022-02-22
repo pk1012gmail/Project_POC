@@ -1,0 +1,42 @@
+<html>
+      <body>
+        <STYLE type="text/css">
+         #UniqueAccountTable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#UniqueAccountTable td, #UniqueAccountTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#UniqueAccountTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#UniqueAccountTable tr:hover {background-color: #ddd;}
+
+#UniqueAccountTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+        </STYLE>
+        <font face="arial" size="2">
+          <p>Hi,</p>
+          <p>Please find below list of unique accounts:-</p>
+          <table border="0"  id="UniqueAccountTable">
+           <tr > 
+               <th>Account Custom Id</th>
+               <th>Unique Account Count</th>
+            </tr>
+             +++AAABBB+++                            
+          </table>
+          <p />
+         <p>Thanks You,</p>
+          <p>Admin</p>
+        </font>
+      </body>
+    </html>
